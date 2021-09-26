@@ -1,3 +1,6 @@
+.main {
+    margin-top: 60px;
+}
 .profileImg {
     display: flex;
 }
@@ -35,9 +38,25 @@ section {
 }
 
 .cards > img {
-    width: 100%;
+    width: 60%;
 }
+
+@media(min-width: 992px){
+    .cards > img {
+        width: 100%;
+    }
+} 
 
 .cards > .subtitle {
     padding: 20px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.experience-item > img {
+    width: 200px;
 }
