@@ -1,0 +1,10 @@
+.profileImg {
+    height: 300px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    margin-top: auto;
+}
