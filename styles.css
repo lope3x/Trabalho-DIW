@@ -43,15 +43,10 @@ section {
     padding: 20px;
 }
 
-.cards > img {
-    width: 60%;
-}
 
-@media(min-width: 992px){
-    .cards > img {
-        width: 100%;
-    }
-} 
+.cards > img {
+    width: 100%;
+}
 
 .cards > .subtitle {
     padding: 20px;
@@ -65,4 +60,44 @@ section {
 
 .experience-item > img {
     width: 200px;
+}
+
+.repository-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.repository-item {
+    display: flex;
+    padding: 20px;
+}
+
+.repository-item > a> img {
+    height: 50px;
+    margin-right: 20px;
+}
+/* Media Query para telas menores que 992px */
+@media(max-width: 992px) {
+    h1, h2 {
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .repository-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards > img {
+        width: 60%;
+    }
+    
+}
+
+p {
+    text-align: justify;
 }
