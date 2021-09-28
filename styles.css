@@ -1,6 +1,15 @@
-.main {
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #212529;
+    margin: 0;
     margin-top: 60px;
 }
+
+img {
+    border-radius: 5%;
+}
+
 a.anchor {
     display: block;
     position: relative;
@@ -28,7 +37,7 @@ a.anchor {
     margin-right: 20px;
 }
 a, a:hover {
-    color: white;
+    color: #212529;
 }
 
 section {
@@ -64,6 +73,7 @@ section {
 
 .experience-item > img {
     width: 200px;
+    border-radius: 0px;
 }
 
 .repository-container {
@@ -109,6 +119,7 @@ section {
 
 p {
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 iframe {
